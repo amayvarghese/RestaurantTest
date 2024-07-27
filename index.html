@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>&lt;model-viewer&gt; example</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="demo-styles.css">
+    
+    <!-- The following libraries and polyfills are recommended to maximize browser support -->
+    <!-- NOTE: you must adjust the paths as appropriate for your project -->
+    
+    <!-- 💁 OPTIONAL: The :focus-visible polyfill removes the focus ring for some input types -->
+    <script src="https://unpkg.com/focus-visible@5.0.2/dist/focus-visible.js" defer></script>
+
+  </head> 
+<body>
+  <div id="card">
+    <!-- All you need to put beautiful, interactive 3D content on your site: -->
+    <model-viewer src="https://cdn.glitch.global/f544dc8d-82bb-4879-b9c2-07a31b29c171/pizza.glb?v=1722083675202"
+                  ios-src="https://cdn.glitch.global/f544dc8d-82bb-4879-b9c2-07a31b29c171/Pizza_Realistic.usdz?v=1722083743840"
+                  poster="https://cdn.glitch.global/f544dc8d-82bb-4879-b9c2-07a31b29c171/Screenshot%202024-07-27%20at%206.07.19%E2%80%AFPM.png?v=1722083859770"
+                  alt="A 3D model of Pizza"
+                  shadow-intensity="1"
+                  camera-controls
+                  auto-rotate ar>
+    </model-viewer>
+    <section class="attribution">
+      <span>
+        <h1>Pizza</h1>
+        <span>By <a href="https://poly.google.com/view/dLHpzNdygsg" target="_blank">Poly</a></span>
+      </span>
+      <a class="cc" href="https://creativecommons.org/licenses/by/2.0/" target="_blank">
+        <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg">
+        <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg">
+      </a>
+    </section>
+    
+  </div>
+  
+   <div id="card1">
+    <!-- All you need to put beautiful, interactive 3D content on your site: -->
+    <model-viewer src="https://cdn.glitch.me/f544dc8d-82bb-4879-b9c2-07a31b29c171/poly.glb?v=1722084620344"
+                  ios-src="hhttps://cdn.glitch.global/f544dc8d-82bb-4879-b9c2-07a31b29c171/My_Sandwich.usdz?v=1722084416079"
+                  poster="https://cdn.glitch.global/f544dc8d-82bb-4879-b9c2-07a31b29c171/sandwich.png?v=1722084741667"
+                  alt="A 3D model of Sandwich"
+                  shadow-intensity="1"
+                  camera-controls
+                  auto-rotate ar>
+    </model-viewer>
+    <section class="attribution">
+      <span>
+        <h1>Sandwich</h1>
+        <span>By <a href="https://poly.google.com/view/dLHpzNdygsg" target="_blank">Poly</a></span>
+      </span>
+      <a class="cc" href="https://creativecommons.org/licenses/by/2.0/" target="_blank">
+        <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg">
+        <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg">
+      </a>
+    </section>
+    
+  </div>
+  
+  <div id="card2">
+    <!-- All you need to put beautiful, interactive 3D content on your site: -->
+    <model-viewer src="https://cdn.glitch.me/f544dc8d-82bb-4879-b9c2-07a31b29c171/chiken.glb?v=1722085156521"
+                  ios-src="https://cdn.glitch.global/f544dc8d-82bb-4879-b9c2-07a31b29c171/chicken_duck.usdz?v=1722085093555"
+                  poster="https://cdn.glitch.global/f544dc8d-82bb-4879-b9c2-07a31b29c171/chickenGrill.jpg?v=1722085348972"
+                  alt="A 3D model of Grilled Chicken"
+                  shadow-intensity="1"
+                  camera-controls
+                  auto-rotate ar>
+    </model-viewer>
+    <section class="attribution">
+      <span>
+        <h1>Grilled Chickens</h1>
+        <span>By <a href="https://poly.google.com/view/dLHpzNdygsg" target="_blank">Poly</a></span>
+      </span>
+      <a class="cc" href="https://creativecommons.org/licenses/by/2.0/" target="_blank">
+        <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg">
+        <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg">
+      </a>
+    </section>
+    
+  </div>
+  
+  
+<!--   <footer>
+    <span>This page is a basic demo of the <a href="https://github.com/GoogleWebComponents/model-viewer" target="_blank">&lt;model-viewer&gt;</a> web component.</span>
+    <span>It makes displaying 3D and AR content on the web easy ✌️</span>
+    <a href="https://glitch.com/edit/#!/remix/model-viewer">
+      <img src="https://cdn.glitch.com/2bdfb3f8-05ef-4035-a06e-2043962a3a13%2Fremix%402x.png?1513093958726" alt="remix button" aria-label="remix" height="33">
+    </a>
+  </footer> -->
+  
+  
+  <!-- 💁 Include both scripts below to support all browsers! -->
+
+  <!-- Loads <model-viewer> for modern browsers: -->
+  <script type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
+  </script>
+</body>
+</html>
